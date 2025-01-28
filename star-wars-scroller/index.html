@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Text Scroller</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+        canvas {
+            display: block;
+        }
+        #crawl-text {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="crawl-text">
+        EPISODE IV
+        A NEW HOPE
+
+        It is a period of civil war.
+        Rebel spaceships, striking
+        from a hidden base, have won
+        their first victory against
+        the evil Galactic Empire.
+
+        During the battle, Rebel
+        spies managed to steal secret
+        plans to the Empire's
+        ultimate weapon, the DEATH
+        STAR, an armored space
+        station with enough power to
+        destroy an entire planet.
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
