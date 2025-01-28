@@ -20,7 +20,7 @@ def createTextNode(text, material):
 
 if __name__ == '__main__':
     # Add lights
-    ambientLight = BoxShadow ambientLight(0xffffff, 0.5)
+    ambientLight = BoxShadowambientLight(0xffffff, 0.5)
     
     # Add directional light
     directionalLight = DirectionalLight(0xffffff, 1)
