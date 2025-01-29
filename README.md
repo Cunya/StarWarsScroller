@@ -1,4 +1,4 @@
-# Experiment to Create a Star Wars Scroller with Three.js Using a Language Model
+# Experiment to create a Star Wars scroller with Three.js using a language model
 
 Originally, I tried to use a locally hosted **Deepseek R1** with **Cline** in Visual Studio Code, but my attempts failed. 
 
